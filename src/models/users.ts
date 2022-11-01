@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import { IInterview } from "../models/interview";
+import { IInterview } from "./interview";
 import validator from "validator";
 
 // https://mongoosejs.com/docs/typescript.html
