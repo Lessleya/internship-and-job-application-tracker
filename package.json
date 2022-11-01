@@ -6,7 +6,8 @@
   "scripts": {
     "watch:build": "tsc -w",
     "watch:run": "nodemon --inspect ./dist/index.js",
-    "watch": "concurrently npm:watch:*"
+    "watch": "concurrently npm:watch:*",
+   
   },
   "repository": {
     "type": "git",

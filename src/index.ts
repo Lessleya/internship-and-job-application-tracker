@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 
 import logger from "./lib/logger";
-import appConfig from "./config/application.config";
+import appConfig from "./config/app.config";
 import database from "./config/initializers/db.init";
 import routes from "./config/routes";
 
